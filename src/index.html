@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./styles/main.css" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <header>
+      <section class="home-page">
+        <nav class="nav justify-content-end">
+          <i class="fa-solid fa-bars"> </i>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="name d-flex flex-column">
+          <p>Hi, my name is</p>
+          <h1>Hetal Ahir,</h1>
+          <h2>Junior Web Developer</h2>
+        </div>
+        <div class="icons">
+          <i class="fa-brands fa-html5"></i>
+          <i class="fa-brands fa-css3"></i>
+          <i class="fa-brands fa-bootstrap"></i>
+          <i class="fa-brands fa-js"></i>
+        </div>
+      </section>
+    </header>
+
+    <main>
+      <section
+        id="about"
+        class="about d-flex align-items-center flex-column-reverse flex-lg-row"
+      >
+        <img src="./img/IMG_2839.jpg" alt="profile picture" />
+        <div class="d-flex flex-column">
+          <h2>About</h2>
+          <p>
+            I am origanally from India and curuntly reside in the vibrant city
+            of Berlin. Its a pleaser to share a bit about my background with
+            you. I am currently a student at DCI (Digital Career Institute),
+            where I am dedicatedly immersed in the world of full stack web
+            development.
+          </p>
+          <p>
+            The program has been an incredible opportunity for me to gain
+            hands-on experience in both front-end and back-end technologies,
+            enabling me to create dynamic and interactive websites and
+            applications. I am excited to continue honing my skills and
+            contributing to the ever-evolving field of web development.
+          </p>
+        </div>
+      </section>
+
+      <section id="work" class="work">
+        <h2>My Work</h2>
+        <div class="cards d-flex" style="width: 100%">
+          <div class="card grid">
+            <a
+              href="https://github.com/FbW-WD-23-E05-B/uib-layout-freelance-position-Hetal2409.git"
+              target="_blank"
+              ><img
+                class="card-img"
+                src="./img/developer.jpeg"
+                alt="boy writing code on system"
+              />
+            </a>
+            <h3>Grid, Flex and Positioning</h3>
+          </div>
+
+          <div class="card animation">
+            <a
+              href="https://github.com/FbW-WD-23-E05-B/uib-interactions-lighting-Hetal2409.git"
+              target="_blank"
+              ><img class="card-img" src="./img/mockup.gif" alt="lighting" />
+            </a>
+            <h3>Animation</h3>
+          </div>
+
+          <div class="card bootstrap">
+            <a
+              href="https://github.com/FbW-WD-23-E05-B/uib-framework-bootstrap-benny-s-burgers-Hetal2409.git"
+              target="_blank"
+              ><img
+                class="card-img"
+                src="./img/jon-tyson-_j-sUa8lHy4-unsplash.jpg"
+                alt="bar"
+            /></a>
+            <h3>framework-bootstrap</h3>
+          </div>
+
+          <div class="card saas">
+            <a
+              href="https://github.com/FbW-WD-23-E05-B/uib-framework-variables-Hetal2409.git"
+              target="_blank"
+              ><img class="card-img" src="./img/surfer.jpg" alt="man surfing"
+            /></a>
+            <h3>Saas and framework-variables</h3>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact">
+        <h2>Contact</h2>
+
+        <form
+          action="https://formspree.io/f/xeqbkqyq"
+          method="POST"
+          class="d-flex flex-column justify-content-center"
+        >
+          <p>Get in touch with me via email:</p>
+          <label>
+            Name:
+            <input type="text" placeholder="write your name" />
+          </label>
+
+          <label>
+            Email:
+            <input type="email" name="email" placeholder="write your email" />
+          </label>
+          <label>
+            Message:
+            <textarea
+              name="message"
+              rows="5"
+              cols="33"
+              placeholder="write your message"
+            ></textarea>
+          </label>
+
+          <button type="submit">Send</button>
+        </form>
+        <div class="socialmedia-icon">
+          <p>Or on social media:</p>
+          <a href="https://github.com/" target="_blank"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/hetal-ahir-403b82241/"
+            target="_blank"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <button>
+        <a href="#">Top <i class="fa-solid fa-arrow-up"></i></a>
+      </button>
+    </footer>
+  </body>
+</html>
